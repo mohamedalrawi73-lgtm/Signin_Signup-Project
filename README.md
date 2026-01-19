@@ -1,0 +1,1 @@
+I'm a 10 year old programmer learning HTML! I made this Signin_Signup-Project which I thought was pretty cool. If anyone could, can you make it so in the sign-up code, if the passwords don't match it says "Passwords don't match, please fix it," and or with css can you make it more stylish?
