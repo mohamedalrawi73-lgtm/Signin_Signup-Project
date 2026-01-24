@@ -27,3 +27,27 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
+
+.container4 {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container5 {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container6 {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
