@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <link rel="script" href="index.js"
         <title>www.signup.com</title>
     </head>
     <body bgcolor="grey">
@@ -22,9 +23,8 @@
         </form>
         </div>
     </body>
-</html>
-<script>
-    const password = document.querySelector('input[name="password"]');
+    <script>
+        const password = document.querySelector('input[name="password"]');
     const confirmPassword = document.querySelector('input[name="confirm_password"]');
 
     function validatePassword(){
@@ -37,4 +37,5 @@
 
     password.addEventListener('change', validatePassword);
     confirmPassword.addEventListener('keyup', validatePassword);
-</script>
+    </script>
+</html>
