@@ -2,8 +2,22 @@
 <html>
     <head>
         <title>www.signup.com</title>
+        <style>
+            .container {
+                display: flex;
+                align-items: center;
+                
+                width: 300px;
+                margin: auto;
+                padding: 30px;
+                border: 1px solid #bd1616;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
+            }
+        </style>
     </head>
     <body>
+        <div class="container">
         <form>
             <h1>Sign-up!</h1>
             <p>Username</p>
@@ -16,5 +30,21 @@
             <a href = "Signin.html">Already have an account? Log-in</a><br>
             <a href = "info.html">More info</a>
         </form>
+        </div>
     </body>
 </html>
+<script>
+    const password = document.querySelector('input[name="password"]');
+    const confirmPassword = document.querySelector('input[name="confirm_password"]');
+
+    function validatePassword(){
+        if(password.value !== confirmPassword.value) {
+            confirmPassword.setCustomValidity("Passwords dont match");
+        } else {
+            confirmPassword.setCustomValidity('');
+        }
+    }
+
+    password.addEventListener('change', validatePassword);
+    confirmPassword.addEventListener('keyup', validatePassword);
+</script>
