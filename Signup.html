@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-        <link rel="script" href="index.js"
+        <link rel="stylesheet" href="styling.css">
         <title>www.signup.com</title>
     </head>
     <body>
@@ -24,20 +23,6 @@
             <a href = "info.html">More info</a>
         </div>
         </form>
+        <script src="script.js"></script>
     </body>
-    <script>
-        const password = document.querySelector('input[name="password"]');
-    const confirmPassword = document.querySelector('input[name="confirm_password"]');
-
-    function validatePassword(){
-        if(password.value !== confirmPassword.value) {
-            confirmPassword.setCustomValidity("Passwords dont match");
-        } else {
-            confirmPassword.setCustomValidity('');
-        }
-    }
-
-    password.addEventListener('change', validatePassword);
-    confirmPassword.addEventListener('keyup', validatePassword);
-    </script>
 </html>
