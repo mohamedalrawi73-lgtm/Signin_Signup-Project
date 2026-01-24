@@ -1,6 +1,6 @@
 .container {
     width: 300px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
     border: 1px solid #bd1616;
@@ -10,7 +10,7 @@
 
 .container2 {
     width: 300px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
     border: 1px solid #bd1616;
@@ -20,7 +20,7 @@
 
 .container3 {
     width: 450px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
     border: 1px solid #bd1616;
