@@ -1,19 +1,27 @@
 .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
-    border: 1px solid #bd1616;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
 
 .container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
-    border: 1px solid #bd1616;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
@@ -23,12 +31,16 @@
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 30px;
-    border: 1px solid #bd1616;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
 
 .container4 {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -37,6 +49,10 @@
 }
 
 .container5 {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     background-color: rgb(255, 255, 255);
     margin: auto;

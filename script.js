@@ -11,3 +11,13 @@ function validatePassword(){
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
+
+const darkModeToggle = document.querySelector('input[value="dark-mode"]');
+
+darkModeToggle.addEventListener('change', function() {
+    if(this.checked) {
+        document.body.style.backgroundColor = 'grey';
+    } else {
+        document.body.style.backgroundColor = 'white';
+    }
+});
