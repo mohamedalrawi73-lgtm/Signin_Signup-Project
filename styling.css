@@ -67,3 +67,22 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+.container7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
+}
+
+.container8 {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
