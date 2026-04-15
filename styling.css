@@ -38,52 +38,49 @@
 
 .container4 {
     position: absolute;
-    top: 84%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
+    top: 25%;
+    left: 25%;
+    width: 450px;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    border: 1px solid #000000;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
 
 .container5 {
     position: absolute;
-    top: 81%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
+    top: 76%;
+    left: 42%;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 10px;
     border-radius: 5px;
 }
 
 .container6 {
-    width: 450px;
+    position: absolute;
+    top: 76%;
+    left: 42%;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 10px;
     border-radius: 5px;
 }
 
 .container7 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
+    top: 125%;
+    left: 39%;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 30px;
-    border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(11, 29, 63, 0.1);
 }
 
 .container8 {
     position: absolute;
-    top: 76%;
-    left: 40%;
+    top: 73%;
+    left: 42%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 5px;
 }
